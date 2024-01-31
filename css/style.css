@@ -136,7 +136,7 @@ img {
     }
 }
 
-/* AGGIUNTA MIA PER NON FAR ROMPERE IL SITO NELLE GRANDEZZE INTERMEDIE */
+/* TABLET */
 @media (max-width: 769px) {
 
     .container {
