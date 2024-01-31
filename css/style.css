@@ -127,7 +127,25 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/* BONUS */
+ @media (min-width: 769px) and (max-width: 1160px) {
+
+    .container {
+        width: 100%;
+    }
+}
+
+/* AGGIUNTA MIA PER NON FAR ROMPERE IL SITO NELLE GRANDEZZE INTERMEDIE */
+@media (max-width: 769px) {
+
+    .container {
+        width: 100%;
+    }
+}
+
 @media (max-width: 480px) {
+
     .container {
         width: 100%;
     }
